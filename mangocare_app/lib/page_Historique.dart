@@ -1,6 +1,8 @@
 import 'package:flutter/material.dart';
 
 class Historique extends StatelessWidget {
+  const Historique({super.key});
+
   @override
   Widget build(BuildContext context) {
     return Column(
@@ -9,13 +11,13 @@ class Historique extends StatelessWidget {
           width: 375,
           height: 812,
           clipBehavior: Clip.antiAlias,
-          decoration: BoxDecoration(color: Color(0xFF091101)),
+          decoration: const BoxDecoration(color: Color(0xFF091101)),
           child: Stack(
             children: [
               Positioned(
                 left: 16,
                 top: 56,
-                child: Container(
+                child: SizedBox(
                   width: 343,
                   height: 48,
                   child: Stack(
@@ -28,14 +30,14 @@ class Historique extends StatelessWidget {
                           height: 48,
                           decoration: ShapeDecoration(
                             shape: RoundedRectangleBorder(
-                              side: BorderSide(
+                              side: const BorderSide(
                                   width: 0.75, color: Color(0xFF3A3A3A)),
                               borderRadius: BorderRadius.circular(8),
                             ),
                           ),
                         ),
                       ),
-                      Positioned(
+                      const Positioned(
                         left: 56,
                         top: 14,
                         child: Text(
@@ -55,8 +57,8 @@ class Historique extends StatelessWidget {
                           width: 24,
                           height: 24,
                           clipBehavior: Clip.antiAlias,
-                          decoration: BoxDecoration(),
-                          child: Stack(children: []),
+                          decoration: const BoxDecoration(),
+                          child: const Stack(children: []),
                         ),
                       ),
                     ],
@@ -70,13 +72,13 @@ class Historique extends StatelessWidget {
                   width: 367,
                   height: 82,
                   clipBehavior: Clip.antiAlias,
-                  decoration: BoxDecoration(),
+                  decoration: const BoxDecoration(),
                   child: Stack(
                     children: [
                       Positioned(
                         left: 8,
                         top: 10,
-                        child: Container(
+                        child: SizedBox(
                           width: 152,
                           height: 72,
                           child: Stack(
@@ -88,13 +90,13 @@ class Historique extends StatelessWidget {
                                   width: 152,
                                   height: 72,
                                   decoration: ShapeDecoration(
-                                    color: Color(0xFF2E2E2E),
+                                    color: const Color(0xFF2E2E2E),
                                     shape: RoundedRectangleBorder(
                                         borderRadius: BorderRadius.circular(8)),
                                   ),
                                 ),
                               ),
-                              Positioned(
+                              const Positioned(
                                 left: 22,
                                 top: 22,
                                 child: Text(
@@ -113,7 +115,7 @@ class Historique extends StatelessWidget {
                                 child: Container(
                                   width: 39,
                                   height: 72,
-                                  decoration: ShapeDecoration(
+                                  decoration: const ShapeDecoration(
                                     shape: RoundedRectangleBorder(
                                       borderRadius: BorderRadius.only(
                                         topLeft: Radius.circular(8),
@@ -130,7 +132,7 @@ class Historique extends StatelessWidget {
                       Positioned(
                         left: 176,
                         top: 10,
-                        child: Container(
+                        child: SizedBox(
                           width: 152,
                           height: 72,
                           child: Stack(
@@ -142,13 +144,13 @@ class Historique extends StatelessWidget {
                                   width: 152,
                                   height: 72,
                                   decoration: ShapeDecoration(
-                                    color: Color(0xFF2E2E2E),
+                                    color: const Color(0xFF2E2E2E),
                                     shape: RoundedRectangleBorder(
                                         borderRadius: BorderRadius.circular(8)),
                                   ),
                                 ),
                               ),
-                              Positioned(
+                              const Positioned(
                                 left: 39,
                                 top: 22,
                                 child: SizedBox(
@@ -171,7 +173,7 @@ class Historique extends StatelessWidget {
                                 child: Container(
                                   width: 39,
                                   height: 72,
-                                  decoration: ShapeDecoration(
+                                  decoration: const ShapeDecoration(
                                     shape: RoundedRectangleBorder(
                                       borderRadius: BorderRadius.only(
                                         topLeft: Radius.circular(8),
@@ -188,7 +190,7 @@ class Historique extends StatelessWidget {
                       Positioned(
                         left: 342,
                         top: 6,
-                        child: Container(
+                        child: SizedBox(
                           width: 154,
                           height: 80,
                           child: Stack(
@@ -200,13 +202,13 @@ class Historique extends StatelessWidget {
                                   width: 152,
                                   height: 72,
                                   decoration: ShapeDecoration(
-                                    color: Color(0xFF2E2E2E),
+                                    color: const Color(0xFF2E2E2E),
                                     shape: RoundedRectangleBorder(
                                         borderRadius: BorderRadius.circular(8)),
                                   ),
                                 ),
                               ),
-                              Positioned(
+                              const Positioned(
                                 left: 49,
                                 top: 26,
                                 child: Text(
@@ -225,7 +227,7 @@ class Historique extends StatelessWidget {
                                 child: Container(
                                   width: 43,
                                   height: 80,
-                                  decoration: ShapeDecoration(
+                                  decoration: const ShapeDecoration(
                                     shape: RoundedRectangleBorder(
                                       borderRadius: BorderRadius.only(
                                         topLeft: Radius.circular(8),
@@ -249,7 +251,7 @@ class Historique extends StatelessWidget {
                 child: Container(
                   width: 155,
                   height: 164,
-                  decoration: BoxDecoration(
+                  decoration: const BoxDecoration(
                     image: DecorationImage(
                       image:
                           NetworkImage("https://via.placeholder.com/155x164"),
@@ -264,7 +266,7 @@ class Historique extends StatelessWidget {
                 child: Container(
                   width: 155,
                   height: 150,
-                  decoration: BoxDecoration(
+                  decoration: const BoxDecoration(
                     image: DecorationImage(
                       image:
                           NetworkImage("https://via.placeholder.com/155x150"),
@@ -279,7 +281,7 @@ class Historique extends StatelessWidget {
                 child: Container(
                   width: 156,
                   height: 170,
-                  decoration: BoxDecoration(
+                  decoration: const BoxDecoration(
                     image: DecorationImage(
                       image:
                           NetworkImage("https://via.placeholder.com/156x170"),
@@ -294,7 +296,7 @@ class Historique extends StatelessWidget {
                 child: Container(
                   width: 156,
                   height: 175,
-                  decoration: BoxDecoration(
+                  decoration: const BoxDecoration(
                     image: DecorationImage(
                       image:
                           NetworkImage("https://via.placeholder.com/156x175"),
@@ -306,7 +308,7 @@ class Historique extends StatelessWidget {
               Positioned(
                 left: 0,
                 top: 706,
-                child: Container(
+                child: SizedBox(
                   width: 375,
                   height: 106,
                   child: Stack(
@@ -317,7 +319,7 @@ class Historique extends StatelessWidget {
                         child: Container(
                           width: 375,
                           height: 72,
-                          decoration: BoxDecoration(
+                          decoration: const BoxDecoration(
                             image: DecorationImage(
                               image: NetworkImage(
                                   "https://via.placeholder.com/375x72"),
@@ -332,7 +334,7 @@ class Historique extends StatelessWidget {
                         child: Container(
                           width: 80,
                           height: 80,
-                          decoration: ShapeDecoration(
+                          decoration: const ShapeDecoration(
                             gradient: LinearGradient(
                               begin: Alignment(0.85, -0.53),
                               end: Alignment(-0.85, 0.53),
@@ -349,8 +351,8 @@ class Historique extends StatelessWidget {
                           width: 24,
                           height: 24,
                           clipBehavior: Clip.antiAlias,
-                          decoration: BoxDecoration(),
-                          child: Stack(children: []),
+                          decoration: const BoxDecoration(),
+                          child: const Stack(children: []),
                         ),
                       ),
                       Positioned(
@@ -360,8 +362,8 @@ class Historique extends StatelessWidget {
                           width: 24,
                           height: 24,
                           clipBehavior: Clip.antiAlias,
-                          decoration: BoxDecoration(),
-                          child: Stack(children: []),
+                          decoration: const BoxDecoration(),
+                          child: const Stack(children: []),
                         ),
                       ),
                       Positioned(
@@ -371,8 +373,8 @@ class Historique extends StatelessWidget {
                           width: 24,
                           height: 24,
                           clipBehavior: Clip.antiAlias,
-                          decoration: BoxDecoration(),
-                          child: Stack(children: []),
+                          decoration: const BoxDecoration(),
+                          child: const Stack(children: []),
                         ),
                       ),
                       Positioned(
@@ -382,8 +384,8 @@ class Historique extends StatelessWidget {
                           width: 24,
                           height: 24,
                           clipBehavior: Clip.antiAlias,
-                          decoration: BoxDecoration(),
-                          child: Stack(children: []),
+                          decoration: const BoxDecoration(),
+                          child: const Stack(children: []),
                         ),
                       ),
                       Positioned(
@@ -393,8 +395,8 @@ class Historique extends StatelessWidget {
                           width: 24,
                           height: 24,
                           clipBehavior: Clip.antiAlias,
-                          decoration: BoxDecoration(),
-                          child: Stack(children: []),
+                          decoration: const BoxDecoration(),
+                          child: const Stack(children: []),
                         ),
                       ),
                     ],

@@ -1,7 +1,9 @@
+// ignore: file_names
 import 'package:flutter/material.dart';
-import 'package:flutter/widgets.dart';
 
 class MaladiesDiagnostiquEs extends StatelessWidget {
+  const MaladiesDiagnostiquEs({super.key});
+
   @override
   Widget build(BuildContext context) {
     return Column(
@@ -10,7 +12,7 @@ class MaladiesDiagnostiquEs extends StatelessWidget {
           width: 375,
           height: 886,
           clipBehavior: Clip.antiAlias,
-          decoration: BoxDecoration(color: Color(0xFF090D05)),
+          decoration: const BoxDecoration(color: Color(0xFF090D05)),
           child: Stack(
             children: [
               Positioned(
@@ -19,7 +21,7 @@ class MaladiesDiagnostiquEs extends StatelessWidget {
                 child: Container(
                   width: 375,
                   height: 289,
-                  decoration: BoxDecoration(
+                  decoration: const BoxDecoration(
                     image: DecorationImage(
                       image:
                           NetworkImage("https://via.placeholder.com/375x289"),
@@ -35,19 +37,19 @@ class MaladiesDiagnostiquEs extends StatelessWidget {
                   width: 140,
                   height: 113,
                   decoration: ShapeDecoration(
-                    image: DecorationImage(
+                    image: const DecorationImage(
                       image:
                           NetworkImage("https://via.placeholder.com/140x113"),
                       fit: BoxFit.fill,
                     ),
                     shape: RoundedRectangleBorder(
-                      side: BorderSide(width: 1, color: Colors.white),
+                      side: const BorderSide(width: 1, color: Colors.white),
                       borderRadius: BorderRadius.circular(8),
                     ),
                   ),
                 ),
               ),
-              Positioned(
+              const Positioned(
                 left: 153,
                 top: 357,
                 child: Text(
@@ -60,7 +62,7 @@ class MaladiesDiagnostiquEs extends StatelessWidget {
                   ),
                 ),
               ),
-              Positioned(
+              const Positioned(
                 left: 16,
                 top: 392,
                 child: SizedBox(
@@ -78,7 +80,7 @@ class MaladiesDiagnostiquEs extends StatelessWidget {
                   ),
                 ),
               ),
-              Positioned(
+              const Positioned(
                 left: 15,
                 top: 688,
                 child: Text(
@@ -128,7 +130,7 @@ class MaladiesDiagnostiquEs extends StatelessWidget {
                   ),
                 ),
               ),
-              Positioned(
+              const Positioned(
                 left: 47,
                 top: 56,
                 child: Text(
@@ -148,8 +150,8 @@ class MaladiesDiagnostiquEs extends StatelessWidget {
                   width: 24,
                   height: 24,
                   clipBehavior: Clip.antiAlias,
-                  decoration: BoxDecoration(),
-                  child: Stack(children: []),
+                  decoration: const BoxDecoration(),
+                  child: const Stack(children: []),
                 ),
               ),
               Positioned(
@@ -159,7 +161,7 @@ class MaladiesDiagnostiquEs extends StatelessWidget {
                   width: 284,
                   height: 131,
                   decoration: ShapeDecoration(
-                    image: DecorationImage(
+                    image: const DecorationImage(
                       image:
                           NetworkImage("https://via.placeholder.com/284x131"),
                       fit: BoxFit.fill,
@@ -176,7 +178,7 @@ class MaladiesDiagnostiquEs extends StatelessWidget {
                   width: 284,
                   height: 131,
                   decoration: ShapeDecoration(
-                    image: DecorationImage(
+                    image: const DecorationImage(
                       image:
                           NetworkImage("https://via.placeholder.com/284x131"),
                       fit: BoxFit.fill,
@@ -193,7 +195,7 @@ class MaladiesDiagnostiquEs extends StatelessWidget {
                   width: 72,
                   height: 72,
                   decoration: ShapeDecoration(
-                    image: DecorationImage(
+                    image: const DecorationImage(
                       image: NetworkImage("https://via.placeholder.com/72x72"),
                       fit: BoxFit.fill,
                     ),
@@ -209,7 +211,7 @@ class MaladiesDiagnostiquEs extends StatelessWidget {
                   width: 72,
                   height: 72,
                   decoration: ShapeDecoration(
-                    image: DecorationImage(
+                    image: const DecorationImage(
                       image: NetworkImage("https://via.placeholder.com/72x72"),
                       fit: BoxFit.fill,
                     ),
@@ -225,7 +227,7 @@ class MaladiesDiagnostiquEs extends StatelessWidget {
                   width: 72,
                   height: 72,
                   decoration: ShapeDecoration(
-                    image: DecorationImage(
+                    image: const DecorationImage(
                       image: NetworkImage("https://via.placeholder.com/72x72"),
                       fit: BoxFit.fill,
                     ),
@@ -248,7 +250,7 @@ class MaladiesDiagnostiquEs extends StatelessWidget {
                         child: Container(
                           width: 375,
                           height: 72,
-                          decoration: BoxDecoration(
+                          decoration: const BoxDecoration(
                             image: DecorationImage(
                               image: NetworkImage(
                                   "https://via.placeholder.com/375x72"),
@@ -263,7 +265,7 @@ class MaladiesDiagnostiquEs extends StatelessWidget {
                         child: Container(
                           width: 80,
                           height: 80,
-                          decoration: ShapeDecoration(
+                          decoration: const ShapeDecoration(
                             gradient: LinearGradient(
                               begin: Alignment(0.85, -0.53),
                               end: Alignment(-0.85, 0.53),
@@ -280,8 +282,8 @@ class MaladiesDiagnostiquEs extends StatelessWidget {
                           width: 24,
                           height: 24,
                           clipBehavior: Clip.antiAlias,
-                          decoration: BoxDecoration(),
-                          child: Stack(children: []),
+                          decoration: const BoxDecoration(),
+                          child: const Stack(children: []),
                         ),
                       ),
                       Positioned(
@@ -291,8 +293,8 @@ class MaladiesDiagnostiquEs extends StatelessWidget {
                           width: 24,
                           height: 24,
                           clipBehavior: Clip.antiAlias,
-                          decoration: BoxDecoration(),
-                          child: Stack(children: []),
+                          decoration: const BoxDecoration(),
+                          child: const Stack(children: []),
                         ),
                       ),
                       Positioned(
@@ -302,8 +304,8 @@ class MaladiesDiagnostiquEs extends StatelessWidget {
                           width: 24,
                           height: 24,
                           clipBehavior: Clip.antiAlias,
-                          decoration: BoxDecoration(),
-                          child: Stack(children: []),
+                          decoration: const BoxDecoration(),
+                          child: const Stack(children: []),
                         ),
                       ),
                       Positioned(
@@ -313,8 +315,8 @@ class MaladiesDiagnostiquEs extends StatelessWidget {
                           width: 24,
                           height: 24,
                           clipBehavior: Clip.antiAlias,
-                          decoration: BoxDecoration(),
-                          child: Stack(children: []),
+                          decoration: const BoxDecoration(),
+                          child: const Stack(children: []),
                         ),
                       ),
                       Positioned(
@@ -324,8 +326,8 @@ class MaladiesDiagnostiquEs extends StatelessWidget {
                           width: 24,
                           height: 24,
                           clipBehavior: Clip.antiAlias,
-                          decoration: BoxDecoration(),
-                          child: Stack(children: []),
+                          decoration: const BoxDecoration(),
+                          child: const Stack(children: []),
                         ),
                       ),
                     ],

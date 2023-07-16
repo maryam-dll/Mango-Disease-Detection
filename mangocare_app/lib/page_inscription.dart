@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 
+// ignore: use_key_in_widget_constructors
 class Inscription extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
@@ -9,7 +10,7 @@ class Inscription extends StatelessWidget {
           width: 375,
           height: 812,
           clipBehavior: Clip.antiAlias,
-          decoration: BoxDecoration(color: Color(0xFF141D0A)),
+          decoration: const BoxDecoration(color: Color(0xFF141D0A)),
           child: Stack(
             children: [
               Positioned(
@@ -18,7 +19,7 @@ class Inscription extends StatelessWidget {
                 child: Container(
                   width: 375,
                   height: 406,
-                  decoration: BoxDecoration(
+                  decoration: const BoxDecoration(
                     image: DecorationImage(
                       image:
                           NetworkImage("https://via.placeholder.com/375x406"),
@@ -35,18 +36,18 @@ class Inscription extends StatelessWidget {
                   height: 812,
                   decoration: BoxDecoration(
                     gradient: LinearGradient(
-                      begin: Alignment(0.00, -1.00),
-                      end: Alignment(0, 1),
+                      begin: const Alignment(0.00, -1.00),
+                      end: const Alignment(0, 1),
                       colors: [
                         Colors.black.withOpacity(0),
                         Colors.black.withOpacity(0.20000000298023224),
-                        Color(0xFF051300)
+                        const Color(0xFF051300)
                       ],
                     ),
                   ),
                 ),
               ),
-              Positioned(
+              const Positioned(
                 left: 16,
                 top: 56,
                 child: Text(
@@ -68,7 +69,7 @@ class Inscription extends StatelessWidget {
                     mainAxisAlignment: MainAxisAlignment.start,
                     crossAxisAlignment: CrossAxisAlignment.start,
                     children: [
-                      Text(
+                      const Text(
                         'Entrez votre mail',
                         style: TextStyle(
                           color: Colors.white,
@@ -83,7 +84,7 @@ class Inscription extends StatelessWidget {
                         height: 48,
                         decoration: ShapeDecoration(
                           shape: RoundedRectangleBorder(
-                            side: BorderSide(
+                            side: const BorderSide(
                                 width: 0.75, color: Color(0xFFDBFFB7)),
                             borderRadius: BorderRadius.circular(8),
                           ),
@@ -102,7 +103,7 @@ class Inscription extends StatelessWidget {
                     mainAxisAlignment: MainAxisAlignment.start,
                     crossAxisAlignment: CrossAxisAlignment.start,
                     children: [
-                      Text(
+                      const Text(
                         'Entrez votre mot de passe',
                         style: TextStyle(
                           color: Colors.white,
@@ -117,7 +118,7 @@ class Inscription extends StatelessWidget {
                         height: 48,
                         decoration: ShapeDecoration(
                           shape: RoundedRectangleBorder(
-                            side: BorderSide(
+                            side: const BorderSide(
                                 width: 0.75, color: Color(0xFFDBFFB7)),
                             borderRadius: BorderRadius.circular(8),
                           ),
@@ -136,7 +137,7 @@ class Inscription extends StatelessWidget {
                     mainAxisAlignment: MainAxisAlignment.start,
                     crossAxisAlignment: CrossAxisAlignment.start,
                     children: [
-                      Text(
+                      const Text(
                         'Confirmer le mot de passe',
                         style: TextStyle(
                           color: Colors.white,
@@ -151,7 +152,7 @@ class Inscription extends StatelessWidget {
                         height: 48,
                         decoration: ShapeDecoration(
                           shape: RoundedRectangleBorder(
-                            side: BorderSide(
+                            side: const BorderSide(
                                 width: 0.75, color: Color(0xFFDBFFB7)),
                             borderRadius: BorderRadius.circular(8),
                           ),
@@ -169,7 +170,7 @@ class Inscription extends StatelessWidget {
                   height: 26,
                   child: Stack(
                     children: [
-                      Positioned(
+                      const Positioned(
                         left: 160,
                         top: 0,
                         child: Text(
@@ -188,7 +189,7 @@ class Inscription extends StatelessWidget {
                         child: Container(
                           width: 136,
                           height: 2,
-                          decoration: BoxDecoration(color: Color(0xFFC4C4C4)),
+                          decoration: const BoxDecoration(color: Color(0xFFC4C4C4)),
                         ),
                       ),
                       Positioned(
@@ -197,14 +198,14 @@ class Inscription extends StatelessWidget {
                         child: Container(
                           width: 136,
                           height: 2,
-                          decoration: BoxDecoration(color: Color(0xFFC4C4C4)),
+                          decoration: const BoxDecoration(color: Color(0xFFC4C4C4)),
                         ),
                       ),
                     ],
                   ),
                 ),
               ),
-              Positioned(
+              const Positioned(
                 left: 116,
                 top: 555,
                 child: Text(
@@ -307,7 +308,7 @@ class Inscription extends StatelessWidget {
                   ),
                 ),
               ),
-              Positioned(
+              const Positioned(
                 left: 47,
                 top: 732,
                 child: Text.rich(
@@ -352,7 +353,7 @@ class Inscription extends StatelessWidget {
                   padding:
                       const EdgeInsets.symmetric(horizontal: 92, vertical: 10),
                   decoration: ShapeDecoration(
-                    gradient: LinearGradient(
+                    gradient: const LinearGradient(
                       begin: Alignment(1.00, -0.03),
                       end: Alignment(-1, 0.03),
                       colors: [Color(0xFF75E00A), Color(0xFF09E09F)],
@@ -360,7 +361,7 @@ class Inscription extends StatelessWidget {
                     shape: RoundedRectangleBorder(
                         borderRadius: BorderRadius.circular(8)),
                   ),
-                  child: Row(
+                  child: const Row(
                     mainAxisSize: MainAxisSize.min,
                     mainAxisAlignment: MainAxisAlignment.center,
                     crossAxisAlignment: CrossAxisAlignment.center,

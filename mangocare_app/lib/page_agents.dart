@@ -1,6 +1,8 @@
 import 'package:flutter/material.dart';
 
 class AgentsPathogenes extends StatelessWidget {
+  const AgentsPathogenes({super.key});
+
   @override
   Widget build(BuildContext context) {
     return Column(
@@ -9,7 +11,7 @@ class AgentsPathogenes extends StatelessWidget {
           width: 375,
           height: 812,
           clipBehavior: Clip.antiAlias,
-          decoration: BoxDecoration(color: Color(0xFF0A1104)),
+          decoration: const BoxDecoration(color: Color(0xFF0A1104)),
           child: Stack(
             children: [
               Positioned(
@@ -18,7 +20,7 @@ class AgentsPathogenes extends StatelessWidget {
                 child: Container(
                   width: 376,
                   height: 289,
-                  decoration: BoxDecoration(
+                  decoration: const BoxDecoration(
                     image: DecorationImage(
                       image:
                           NetworkImage("https://via.placeholder.com/376x289"),
@@ -27,7 +29,7 @@ class AgentsPathogenes extends StatelessWidget {
                   ),
                 ),
               ),
-              Positioned(
+              const Positioned(
                 left: 86,
                 top: 56,
                 child: Text(
@@ -47,13 +49,13 @@ class AgentsPathogenes extends StatelessWidget {
                   width: 140,
                   height: 113,
                   decoration: ShapeDecoration(
-                    image: DecorationImage(
+                    image: const DecorationImage(
                       image:
                           NetworkImage("https://via.placeholder.com/140x113"),
                       fit: BoxFit.fill,
                     ),
                     shape: RoundedRectangleBorder(
-                      side: BorderSide(
+                      side: const BorderSide(
                         width: 1,
                         strokeAlign: BorderSide.strokeAlignOutside,
                         color: Colors.white,
@@ -63,7 +65,7 @@ class AgentsPathogenes extends StatelessWidget {
                   ),
                 ),
               ),
-              Positioned(
+              const Positioned(
                 left: 125,
                 top: 353,
                 child: Text(
@@ -76,7 +78,7 @@ class AgentsPathogenes extends StatelessWidget {
                   ),
                 ),
               ),
-              Positioned(
+              const Positioned(
                 left: 91,
                 top: 391,
                 child: Text(
@@ -96,7 +98,7 @@ class AgentsPathogenes extends StatelessWidget {
                   width: 72,
                   height: 72,
                   decoration: ShapeDecoration(
-                    image: DecorationImage(
+                    image: const DecorationImage(
                       image: NetworkImage("https://via.placeholder.com/72x72"),
                       fit: BoxFit.fill,
                     ),
@@ -105,7 +107,7 @@ class AgentsPathogenes extends StatelessWidget {
                   ),
                 ),
               ),
-              Positioned(
+              const Positioned(
                 left: 16,
                 top: 425,
                 child: SizedBox(
@@ -122,7 +124,7 @@ class AgentsPathogenes extends StatelessWidget {
                   ),
                 ),
               ),
-              Positioned(
+              const Positioned(
                 left: 10,
                 top: 591,
                 child: Text(
@@ -143,8 +145,8 @@ class AgentsPathogenes extends StatelessWidget {
                   width: 24,
                   height: 24,
                   clipBehavior: Clip.antiAlias,
-                  decoration: BoxDecoration(),
-                  child: Stack(children: []),
+                  decoration: const BoxDecoration(),
+                  child: const Stack(children: []),
                 ),
               ),
               Positioned(
@@ -154,7 +156,7 @@ class AgentsPathogenes extends StatelessWidget {
                   width: 72,
                   height: 72,
                   decoration: ShapeDecoration(
-                    image: DecorationImage(
+                    image: const DecorationImage(
                       image: NetworkImage("https://via.placeholder.com/72x72"),
                       fit: BoxFit.fill,
                     ),
@@ -170,7 +172,7 @@ class AgentsPathogenes extends StatelessWidget {
                   width: 72,
                   height: 72,
                   decoration: ShapeDecoration(
-                    image: DecorationImage(
+                    image: const DecorationImage(
                       image: NetworkImage("https://via.placeholder.com/72x72"),
                       fit: BoxFit.fill,
                     ),
@@ -193,7 +195,7 @@ class AgentsPathogenes extends StatelessWidget {
                         child: Container(
                           width: 375,
                           height: 72,
-                          decoration: BoxDecoration(
+                          decoration: const BoxDecoration(
                             image: DecorationImage(
                               image: NetworkImage(
                                   "https://via.placeholder.com/375x72"),
@@ -209,8 +211,8 @@ class AgentsPathogenes extends StatelessWidget {
                           width: 24,
                           height: 24,
                           clipBehavior: Clip.antiAlias,
-                          decoration: BoxDecoration(),
-                          child: Stack(children: []),
+                          decoration: const BoxDecoration(),
+                          child: const Stack(children: []),
                         ),
                       ),
                       Positioned(
@@ -220,8 +222,8 @@ class AgentsPathogenes extends StatelessWidget {
                           width: 24,
                           height: 24,
                           clipBehavior: Clip.antiAlias,
-                          decoration: BoxDecoration(),
-                          child: Stack(children: []),
+                          decoration: const BoxDecoration(),
+                          child: const Stack(children: []),
                         ),
                       ),
                       Positioned(
@@ -231,8 +233,8 @@ class AgentsPathogenes extends StatelessWidget {
                           width: 24,
                           height: 24,
                           clipBehavior: Clip.antiAlias,
-                          decoration: BoxDecoration(),
-                          child: Stack(children: []),
+                          decoration: const BoxDecoration(),
+                          child: const Stack(children: []),
                         ),
                       ),
                       Positioned(
@@ -242,8 +244,8 @@ class AgentsPathogenes extends StatelessWidget {
                           width: 24,
                           height: 24,
                           clipBehavior: Clip.antiAlias,
-                          decoration: BoxDecoration(),
-                          child: Stack(children: []),
+                          decoration: const BoxDecoration(),
+                          child: const Stack(children: []),
                         ),
                       ),
                       Positioned(
@@ -260,7 +262,7 @@ class AgentsPathogenes extends StatelessWidget {
                                 child: Container(
                                   width: 180,
                                   height: 180,
-                                  decoration: ShapeDecoration(
+                                  decoration: const ShapeDecoration(
                                     color: Color(0xFF1D1C1C),
                                     shape: OvalBorder(),
                                   ),
@@ -275,8 +277,8 @@ class AgentsPathogenes extends StatelessWidget {
                                     width: 24,
                                     height: 24,
                                     clipBehavior: Clip.antiAlias,
-                                    decoration: BoxDecoration(),
-                                    child: Stack(children: []),
+                                    decoration: const BoxDecoration(),
+                                    child: const Stack(children: []),
                                   ),
                                 ),
                               ),
@@ -286,7 +288,7 @@ class AgentsPathogenes extends StatelessWidget {
                                 child: Container(
                                   width: 80,
                                   height: 80,
-                                  decoration: ShapeDecoration(
+                                  decoration: const ShapeDecoration(
                                     gradient: LinearGradient(
                                       begin: Alignment(0.85, -0.53),
                                       end: Alignment(-0.85, 0.53),
@@ -306,8 +308,8 @@ class AgentsPathogenes extends StatelessWidget {
                                   width: 24,
                                   height: 24,
                                   clipBehavior: Clip.antiAlias,
-                                  decoration: BoxDecoration(),
-                                  child: Stack(children: []),
+                                  decoration: const BoxDecoration(),
+                                  child: const Stack(children: []),
                                 ),
                               ),
                               Positioned(
@@ -319,8 +321,8 @@ class AgentsPathogenes extends StatelessWidget {
                                     width: 24,
                                     height: 24,
                                     clipBehavior: Clip.antiAlias,
-                                    decoration: BoxDecoration(),
-                                    child: Stack(children: []),
+                                    decoration: const BoxDecoration(),
+                                    child: const Stack(children: []),
                                   ),
                                 ),
                               ),
@@ -334,8 +336,8 @@ class AgentsPathogenes extends StatelessWidget {
                                     padding: const EdgeInsets.symmetric(
                                         horizontal: 1, vertical: 5),
                                     clipBehavior: Clip.antiAlias,
-                                    decoration: BoxDecoration(),
-                                    child: Row(
+                                    decoration: const BoxDecoration(),
+                                    child: const Row(
                                       mainAxisSize: MainAxisSize.min,
                                       mainAxisAlignment:
                                           MainAxisAlignment.center,

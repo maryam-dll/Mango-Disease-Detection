@@ -1,7 +1,8 @@
 import 'package:flutter/material.dart';
-import 'package:flutter/widgets.dart';
 
 class ResultatDiagnostic extends StatelessWidget {
+  const ResultatDiagnostic({super.key});
+
   @override
   Widget build(BuildContext context) {
     return Column(
@@ -10,7 +11,7 @@ class ResultatDiagnostic extends StatelessWidget {
           width: 375,
           height: 812,
           clipBehavior: Clip.antiAlias,
-          decoration: BoxDecoration(color: Color(0xFF090D05)),
+          decoration: const BoxDecoration(color: Color(0xFF090D05)),
           child: Stack(
             children: [
               Positioned(
@@ -19,7 +20,7 @@ class ResultatDiagnostic extends StatelessWidget {
                 child: Container(
                   width: 375,
                   height: 902,
-                  decoration: BoxDecoration(
+                  decoration: const BoxDecoration(
                     image: DecorationImage(
                       image:
                           NetworkImage("https://via.placeholder.com/375x902"),
@@ -36,8 +37,8 @@ class ResultatDiagnostic extends StatelessWidget {
                   height: 902,
                   decoration: BoxDecoration(
                     gradient: LinearGradient(
-                      begin: Alignment(0.00, -1.00),
-                      end: Alignment(0, 1),
+                      begin: const Alignment(0.00, -1.00),
+                      end: const Alignment(0, 1),
                       colors: [
                         Colors.black.withOpacity(0),
                         Colors.black.withOpacity(0.20000000298023224),
@@ -47,7 +48,7 @@ class ResultatDiagnostic extends StatelessWidget {
                   ),
                 ),
               ),
-              Positioned(
+              const Positioned(
                 left: 16,
                 top: 510,
                 child: Text(
@@ -60,7 +61,7 @@ class ResultatDiagnostic extends StatelessWidget {
                   ),
                 ),
               ),
-              Positioned(
+              const Positioned(
                 left: 16,
                 top: 593,
                 child: Text(
@@ -73,7 +74,7 @@ class ResultatDiagnostic extends StatelessWidget {
                   ),
                 ),
               ),
-              Positioned(
+              const Positioned(
                 left: 16,
                 top: 539,
                 child: SizedBox(
@@ -89,7 +90,7 @@ class ResultatDiagnostic extends StatelessWidget {
                   ),
                 ),
               ),
-              Positioned(
+              const Positioned(
                 left: 16,
                 top: 622,
                 child: SizedBox(
@@ -113,14 +114,14 @@ class ResultatDiagnostic extends StatelessWidget {
                   height: 280,
                   decoration: ShapeDecoration(
                     gradient: LinearGradient(
-                      begin: Alignment(0.67, -0.74),
-                      end: Alignment(-0.67, 0.74),
+                      begin: const Alignment(0.67, -0.74),
+                      end: const Alignment(-0.67, 0.74),
                       colors: [
-                        Color(0x3DFCFCFC),
+                        const Color(0x3DFCFCFC),
                         Colors.white.withOpacity(0.07999999821186066)
                       ],
                     ),
-                    shape: OvalBorder(
+                    shape: const OvalBorder(
                       side: BorderSide(width: 0.90, color: Colors.white),
                     ),
                   ),
@@ -140,7 +141,7 @@ class ResultatDiagnostic extends StatelessWidget {
                         child: Container(
                           width: 20,
                           height: 20,
-                          decoration: ShapeDecoration(
+                          decoration: const ShapeDecoration(
                             color: Color(0xFF09E09F),
                             shape: OvalBorder(),
                           ),
@@ -152,7 +153,7 @@ class ResultatDiagnostic extends StatelessWidget {
                         child: Container(
                           width: 22,
                           height: 22,
-                          decoration: ShapeDecoration(
+                          decoration: const ShapeDecoration(
                             shape: OvalBorder(
                               side:
                                   BorderSide(width: 0.25, color: Colors.white),
@@ -170,7 +171,7 @@ class ResultatDiagnostic extends StatelessWidget {
                           child: Container(
                             width: 10,
                             height: 10,
-                            decoration: ShapeDecoration(
+                            decoration: const ShapeDecoration(
                               color: Colors.white,
                               shape: OvalBorder(),
                             ),
@@ -195,7 +196,7 @@ class ResultatDiagnostic extends StatelessWidget {
                         child: Container(
                           width: 20,
                           height: 20,
-                          decoration: ShapeDecoration(
+                          decoration: const ShapeDecoration(
                             color: Color(0xFF09E09F),
                             shape: OvalBorder(),
                           ),
@@ -207,7 +208,7 @@ class ResultatDiagnostic extends StatelessWidget {
                         child: Container(
                           width: 22,
                           height: 22,
-                          decoration: ShapeDecoration(
+                          decoration: const ShapeDecoration(
                             shape: OvalBorder(
                               side:
                                   BorderSide(width: 0.25, color: Colors.white),
@@ -225,7 +226,7 @@ class ResultatDiagnostic extends StatelessWidget {
                           child: Container(
                             width: 10,
                             height: 10,
-                            decoration: ShapeDecoration(
+                            decoration: const ShapeDecoration(
                               color: Colors.white,
                               shape: OvalBorder(),
                             ),
@@ -250,7 +251,7 @@ class ResultatDiagnostic extends StatelessWidget {
                         child: Container(
                           width: 20,
                           height: 20,
-                          decoration: ShapeDecoration(
+                          decoration: const ShapeDecoration(
                             color: Color(0xFF09E09F),
                             shape: OvalBorder(),
                           ),
@@ -262,7 +263,7 @@ class ResultatDiagnostic extends StatelessWidget {
                         child: Container(
                           width: 22,
                           height: 22,
-                          decoration: ShapeDecoration(
+                          decoration: const ShapeDecoration(
                             shape: OvalBorder(
                               side:
                                   BorderSide(width: 0.25, color: Colors.white),
@@ -280,7 +281,7 @@ class ResultatDiagnostic extends StatelessWidget {
                           child: Container(
                             width: 10,
                             height: 10,
-                            decoration: ShapeDecoration(
+                            decoration: const ShapeDecoration(
                               color: Colors.white,
                               shape: OvalBorder(),
                             ),
@@ -291,7 +292,7 @@ class ResultatDiagnostic extends StatelessWidget {
                   ),
                 ),
               ),
-              Positioned(
+              const Positioned(
                 left: 70,
                 top: 50,
                 child: Text(
@@ -318,7 +319,7 @@ class ResultatDiagnostic extends StatelessWidget {
                         child: Container(
                           width: 375,
                           height: 72,
-                          decoration: BoxDecoration(
+                          decoration: const BoxDecoration(
                             image: DecorationImage(
                               image: NetworkImage(
                                   "https://via.placeholder.com/375x72"),
@@ -333,7 +334,7 @@ class ResultatDiagnostic extends StatelessWidget {
                         child: Container(
                           width: 80,
                           height: 80,
-                          decoration: ShapeDecoration(
+                          decoration: const ShapeDecoration(
                             gradient: LinearGradient(
                               begin: Alignment(0.85, -0.53),
                               end: Alignment(-0.85, 0.53),
@@ -350,8 +351,8 @@ class ResultatDiagnostic extends StatelessWidget {
                           width: 24,
                           height: 24,
                           clipBehavior: Clip.antiAlias,
-                          decoration: BoxDecoration(),
-                          child: Stack(children: []),
+                          decoration: const BoxDecoration(),
+                          child: const Stack(children: []),
                         ),
                       ),
                       Positioned(
@@ -361,8 +362,8 @@ class ResultatDiagnostic extends StatelessWidget {
                           width: 24,
                           height: 24,
                           clipBehavior: Clip.antiAlias,
-                          decoration: BoxDecoration(),
-                          child: Stack(children: []),
+                          decoration: const BoxDecoration(),
+                          child: const Stack(children: []),
                         ),
                       ),
                       Positioned(
@@ -372,8 +373,8 @@ class ResultatDiagnostic extends StatelessWidget {
                           width: 24,
                           height: 24,
                           clipBehavior: Clip.antiAlias,
-                          decoration: BoxDecoration(),
-                          child: Stack(children: []),
+                          decoration: const BoxDecoration(),
+                          child: const Stack(children: []),
                         ),
                       ),
                       Positioned(
@@ -383,8 +384,8 @@ class ResultatDiagnostic extends StatelessWidget {
                           width: 24,
                           height: 24,
                           clipBehavior: Clip.antiAlias,
-                          decoration: BoxDecoration(),
-                          child: Stack(children: []),
+                          decoration: const BoxDecoration(),
+                          child: const Stack(children: []),
                         ),
                       ),
                       Positioned(
@@ -394,8 +395,8 @@ class ResultatDiagnostic extends StatelessWidget {
                           width: 24,
                           height: 24,
                           clipBehavior: Clip.antiAlias,
-                          decoration: BoxDecoration(),
-                          child: Stack(children: []),
+                          decoration: const BoxDecoration(),
+                          child: const Stack(children: []),
                         ),
                       ),
                     ],

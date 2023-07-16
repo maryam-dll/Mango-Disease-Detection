@@ -1,6 +1,8 @@
 import 'package:flutter/material.dart';
 
 class Connexion extends StatelessWidget {
+  const Connexion({super.key});
+
   @override
   Widget build(BuildContext context) {
     return Column(
@@ -9,7 +11,7 @@ class Connexion extends StatelessWidget {
           width: 375,
           height: 812,
           clipBehavior: Clip.antiAlias,
-          decoration: BoxDecoration(color: Color(0xFF090D05)),
+          decoration: const BoxDecoration(color: Color(0xFF090D05)),
           child: Stack(
             children: [
               Positioned(
@@ -18,7 +20,7 @@ class Connexion extends StatelessWidget {
                 child: Container(
                   width: 375,
                   height: 406,
-                  decoration: BoxDecoration(
+                  decoration: const BoxDecoration(
                     image: DecorationImage(
                       image:
                           NetworkImage("https://via.placeholder.com/375x406"),
@@ -35,18 +37,18 @@ class Connexion extends StatelessWidget {
                   height: 812,
                   decoration: BoxDecoration(
                     gradient: LinearGradient(
-                      begin: Alignment(0.00, -1.00),
-                      end: Alignment(0, 1),
+                      begin: const Alignment(0.00, -1.00),
+                      end: const Alignment(0, 1),
                       colors: [
-                        Color(0x000D3906),
+                        const Color(0x000D3906),
                         Colors.black.withOpacity(0),
-                        Color(0xAA041302)
+                        const Color(0xAA041302)
                       ],
                     ),
                   ),
                 ),
               ),
-              Positioned(
+              const Positioned(
                 left: 16,
                 top: 56,
                 child: Text(
@@ -68,7 +70,7 @@ class Connexion extends StatelessWidget {
                     mainAxisAlignment: MainAxisAlignment.start,
                     crossAxisAlignment: CrossAxisAlignment.start,
                     children: [
-                      Text(
+                      const Text(
                         'Entrez votre email',
                         style: TextStyle(
                           color: Colors.white,
@@ -83,7 +85,7 @@ class Connexion extends StatelessWidget {
                         height: 48,
                         decoration: ShapeDecoration(
                           shape: RoundedRectangleBorder(
-                            side: BorderSide(
+                            side: const BorderSide(
                                 width: 0.75, color: Color(0xFFDBFFB7)),
                             borderRadius: BorderRadius.circular(8),
                           ),
@@ -102,7 +104,7 @@ class Connexion extends StatelessWidget {
                     mainAxisAlignment: MainAxisAlignment.start,
                     crossAxisAlignment: CrossAxisAlignment.start,
                     children: [
-                      Text(
+                      const Text(
                         'Entrez votre mot de passe',
                         style: TextStyle(
                           color: Colors.white,
@@ -117,7 +119,7 @@ class Connexion extends StatelessWidget {
                         height: 48,
                         decoration: ShapeDecoration(
                           shape: RoundedRectangleBorder(
-                            side: BorderSide(
+                            side: const BorderSide(
                                 width: 0.75, color: Color(0xFFDBFFB7)),
                             borderRadius: BorderRadius.circular(8),
                           ),
@@ -135,7 +137,7 @@ class Connexion extends StatelessWidget {
                   height: 26,
                   child: Stack(
                     children: [
-                      Positioned(
+                      const Positioned(
                         left: 160,
                         top: 0,
                         child: Text(
@@ -154,7 +156,7 @@ class Connexion extends StatelessWidget {
                         child: Container(
                           width: 136,
                           height: 2,
-                          decoration: BoxDecoration(color: Color(0xFFC4C4C4)),
+                          decoration: const BoxDecoration(color: Color(0xFFC4C4C4)),
                         ),
                       ),
                       Positioned(
@@ -163,14 +165,14 @@ class Connexion extends StatelessWidget {
                         child: Container(
                           width: 136,
                           height: 2,
-                          decoration: BoxDecoration(color: Color(0xFFC4C4C4)),
+                          decoration: const BoxDecoration(color: Color(0xFFC4C4C4)),
                         ),
                       ),
                     ],
                   ),
                 ),
               ),
-              Positioned(
+              const Positioned(
                 left: 109,
                 top: 459,
                 child: Text(
@@ -273,7 +275,7 @@ class Connexion extends StatelessWidget {
                   ),
                 ),
               ),
-              Positioned(
+              const Positioned(
                 left: 87,
                 top: 732,
                 child: Text.rich(
@@ -309,7 +311,7 @@ class Connexion extends StatelessWidget {
                   padding:
                       const EdgeInsets.symmetric(horizontal: 92, vertical: 10),
                   decoration: ShapeDecoration(
-                    gradient: LinearGradient(
+                    gradient: const LinearGradient(
                       begin: Alignment(1.00, -0.03),
                       end: Alignment(-1, 0.03),
                       colors: [Color(0xFF75E00A), Color(0xFF09E09F)],
@@ -317,7 +319,7 @@ class Connexion extends StatelessWidget {
                     shape: RoundedRectangleBorder(
                         borderRadius: BorderRadius.circular(8)),
                   ),
-                  child: Row(
+                  child: const Row(
                     mainAxisSize: MainAxisSize.min,
                     mainAxisAlignment: MainAxisAlignment.center,
                     crossAxisAlignment: CrossAxisAlignment.center,

@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:flutter/widgets.dart';
 
 class DetailsDiagnostic extends StatelessWidget {
   @override
@@ -10,7 +9,7 @@ class DetailsDiagnostic extends StatelessWidget {
           width: 375,
           height: 812,
           clipBehavior: Clip.antiAlias,
-          decoration: BoxDecoration(color: Color(0xFF090D05)),
+          decoration: const BoxDecoration(color: Color(0xFF090D05)),
           child: Stack(
             children: [
               Positioned(

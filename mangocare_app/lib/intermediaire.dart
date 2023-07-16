@@ -1,6 +1,8 @@
 import 'package:flutter/material.dart';
 
 class Intermediaire extends StatelessWidget {
+  const Intermediaire({super.key});
+
   @override
   Widget build(BuildContext context) {
     return Column(
@@ -9,7 +11,7 @@ class Intermediaire extends StatelessWidget {
           width: 375,
           height: 812,
           clipBehavior: Clip.antiAlias,
-          decoration: BoxDecoration(color: Color(0xFF090D05)),
+          decoration: const BoxDecoration(color: Color(0xFF090D05)),
           child: Stack(
             children: [
               Positioned(
@@ -18,7 +20,7 @@ class Intermediaire extends StatelessWidget {
                 child: Container(
                   width: 375,
                   height: 812,
-                  decoration: BoxDecoration(
+                  decoration: const BoxDecoration(
                     image: DecorationImage(
                       image:
                           NetworkImage("https://via.placeholder.com/375x812"),
@@ -35,18 +37,18 @@ class Intermediaire extends StatelessWidget {
                   height: 812,
                   decoration: BoxDecoration(
                     gradient: LinearGradient(
-                      begin: Alignment(0.00, -1.00),
-                      end: Alignment(0, 1),
+                      begin: const Alignment(0.00, -1.00),
+                      end: const Alignment(0, 1),
                       colors: [
                         Colors.black.withOpacity(0),
                         Colors.black.withOpacity(0.20000000298023224),
-                        Color(0xFF051106)
+                        const Color(0xFF051106)
                       ],
                     ),
                   ),
                 ),
               ),
-              Positioned(
+              const Positioned(
                 left: 16,
                 top: 99,
                 child: SizedBox(
@@ -62,7 +64,7 @@ class Intermediaire extends StatelessWidget {
                   ),
                 ),
               ),
-              Positioned(
+              const Positioned(
                 left: 16,
                 top: 239,
                 child: SizedBox(
@@ -92,7 +94,7 @@ class Intermediaire extends StatelessWidget {
                         child: Container(
                           width: 160,
                           height: 160,
-                          decoration: ShapeDecoration(
+                          decoration: const ShapeDecoration(
                             image: DecorationImage(
                               image: NetworkImage(
                                   "https://via.placeholder.com/160x160"),
@@ -111,7 +113,7 @@ class Intermediaire extends StatelessWidget {
                         child: Container(
                           width: 24,
                           height: 24,
-                          decoration: ShapeDecoration(
+                          decoration: const ShapeDecoration(
                             image: DecorationImage(
                               image: NetworkImage(
                                   "https://via.placeholder.com/24x24"),
@@ -137,7 +139,7 @@ class Intermediaire extends StatelessWidget {
                           ),
                         ),
                       ),
-                      Positioned(
+                      const Positioned(
                         left: 31,
                         top: 14,
                         child: Text(
@@ -162,7 +164,7 @@ class Intermediaire extends StatelessWidget {
                   padding:
                       const EdgeInsets.symmetric(horizontal: 92, vertical: 10),
                   decoration: ShapeDecoration(
-                    gradient: LinearGradient(
+                    gradient: const LinearGradient(
                       begin: Alignment(1.00, -0.03),
                       end: Alignment(-1, 0.03),
                       colors: [Color(0xFF75E00A), Color(0xFF09E09F)],
@@ -170,7 +172,7 @@ class Intermediaire extends StatelessWidget {
                     shape: RoundedRectangleBorder(
                         borderRadius: BorderRadius.circular(8)),
                   ),
-                  child: Row(
+                  child: const Row(
                     mainAxisSize: MainAxisSize.min,
                     mainAxisAlignment: MainAxisAlignment.center,
                     crossAxisAlignment: CrossAxisAlignment.center,
