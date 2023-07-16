@@ -102,7 +102,7 @@ class ScannerLaFeuille extends StatelessWidget {
               Positioned(
                 left: 0,
                 top: 706,
-                child: Container(
+                child: SizedBox(
                   width: 375,
                   height: 106,
                   child: Stack(
